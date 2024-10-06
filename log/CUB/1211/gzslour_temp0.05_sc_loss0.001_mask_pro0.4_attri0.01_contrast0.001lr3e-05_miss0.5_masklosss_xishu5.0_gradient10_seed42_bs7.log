@@ -1,0 +1,108 @@
+2024-09-01 13:58:28 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | {"dataset": "CUB", "root": "./", "image_root": "dataset/", "matdataset": true, "image_embedding": "res101", "class_embedding": "att", "preprocessing": true, "standardization": false, "ol": false, "validation": false, "batch_size": 7, "nepoch": 15, "classifier_lr": 3e-05, "beta1": 0.5, "cuda": true, "pretrain_classifier": "", "manualSeed": 42, "resnet_path": "./pretrained_models/resnet101_c.pth.tar", "train_id": 107, "pretrained": null, "image_type": "test_unseen_loc", "pretrain_epoch": 5, "pretrain_lr": 0.0001, "all": false, "gzsl": true, "additional_loss": true, "xe": 1.0, "attri": 0.01, "regular": 5e-05, "l_xe": 1.0, "l_attri": 0.1, "l_regular": 0.04, "cpt": 1e-09, "calibrated_stacking": 0.7, "save_att": false, "IoU_scale": 4, "IoU_thr": 0.5, "resize_WH": false, "out_of_edge": false, "max_area_center": false, "KNOW_BIRD_BB": false, "train_mode": "random", "n_batch": 1000, "ways": 16, "shots": 2, "transform_complex": false, "awa_finetune": false, "use_group": true, "avg_pool": false, "only_evaluate": false, "resume": false, "patient": 7, "mask_way": "newmask", "temperature": 0.05, "loss_function": "two_loss", "model_name": "Multi_attention_Model", "mask_pro": 0.4, "mask_loss_xishu": 5.0, "construct_loss_weight": 0.001, "xlayer_num": 1, "sc_loss": 0.001, "attribute_miss": 0.5, "gradient_time": 10, "max_length": 250, "dataroot": "./data", "checkpointroot": "./checkpoint"}
+2024-09-01 13:58:33 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | Create Model...
+2024-09-01 13:58:42 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | Train and test...
+2024-09-01 14:13:01 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 1, Batch  1009] Train loss: 2.907 
+2024-09-01 14:13:39 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 1 step 1009] GZSL test accuracy is Unseen: 17.7 Seen: 0.0 H:0.0
+           Best_H [Unseen: 0.0% Seen: 0.0% H: 0.0% | Epoch-0.0 step-0.0]
+2024-09-01 14:13:39 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.0
+2024-09-01 14:28:42 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 2, Batch  1009] Train loss: 0.648 
+2024-09-01 14:29:19 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 2 step 1009] GZSL test accuracy is Unseen: 47.9 Seen: 4.0 H:7.4
+           Best_H [Unseen: 47.9% Seen: 4.0% H: 7.4% | Epoch-2 step-0.0]
+2024-09-01 14:29:19 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 14:44:16 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 3, Batch  1009] Train loss: 0.509 
+2024-09-01 14:44:54 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 3 step 1009] GZSL test accuracy is Unseen: 59.8 Seen: 15.4 H:24.5
+           Best_H [Unseen: 59.8% Seen: 15.4% H: 24.5% | Epoch-3 step-0.0]
+2024-09-01 14:44:54 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 14:59:56 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 4, Batch  1009] Train loss: 0.472 
+2024-09-01 15:00:34 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 4 step 1009] GZSL test accuracy is Unseen: 64.9 Seen: 28.6 H:39.7
+           Best_H [Unseen: 64.9% Seen: 28.6% H: 39.7% | Epoch-4 step-0.0]
+2024-09-01 15:00:34 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 15:15:53 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 5, Batch  1009] Train loss: 0.453 
+2024-09-01 15:16:30 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 5 step 1009] GZSL test accuracy is Unseen: 67.1 Seen: 36.0 H:46.8
+           Best_H [Unseen: 67.1% Seen: 36.0% H: 46.8% | Epoch-5 step-0.0]
+2024-09-01 15:16:30 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 15:32:01 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 6, Batch  1009] Train loss: 0.440 
+2024-09-01 15:32:38 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 6 step 1009] GZSL test accuracy is Unseen: 65.9 Seen: 43.1 H:52.2
+           Best_H [Unseen: 65.9% Seen: 43.1% H: 52.2% | Epoch-6 step-0.0]
+2024-09-01 15:32:38 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 15:47:08 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 7, Batch  1009] Train loss: 0.431 
+2024-09-01 15:47:46 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 7 step 1009] GZSL test accuracy is Unseen: 66.4 Seen: 50.1 H:57.1
+           Best_H [Unseen: 66.4% Seen: 50.1% H: 57.1% | Epoch-7 step-0.0]
+2024-09-01 15:47:46 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 16:03:01 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 8, Batch  1009] Train loss: 0.426 
+2024-09-01 16:03:38 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 8 step 1009] GZSL test accuracy is Unseen: 63.8 Seen: 52.3 H:57.5
+           Best_H [Unseen: 63.8% Seen: 52.3% H: 57.5% | Epoch-8 step-0.0]
+2024-09-01 16:03:38 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 16:18:41 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 9, Batch  1009] Train loss: 0.422 
+2024-09-01 16:19:18 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 9 step 1009] GZSL test accuracy is Unseen: 63.9 Seen: 55.6 H:59.4
+           Best_H [Unseen: 63.9% Seen: 55.6% H: 59.4% | Epoch-9 step-0.0]
+2024-09-01 16:19:18 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 16:34:20 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 10, Batch  1009] Train loss: 0.420 
+2024-09-01 16:34:57 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 10 step 1009] GZSL test accuracy is Unseen: 62.3 Seen: 56.9 H:59.5
+           Best_H [Unseen: 62.3% Seen: 56.9% H: 59.5% | Epoch-10 step-0.0]
+2024-09-01 16:34:57 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 16:50:25 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 11, Batch  1009] Train loss: 0.418 
+2024-09-01 16:51:03 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 11 step 1009] GZSL test accuracy is Unseen: 64.8 Seen: 58.8 H:61.7
+           Best_H [Unseen: 64.8% Seen: 58.8% H: 61.7% | Epoch-11 step-0.0]
+2024-09-01 16:51:03 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 17:05:50 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 12, Batch  1009] Train loss: 0.416 
+2024-09-01 17:06:28 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 12 step 1009] GZSL test accuracy is Unseen: 63.8 Seen: 60.2 H:61.9
+           Best_H [Unseen: 63.8% Seen: 60.2% H: 61.9% | Epoch-12 step-0.0]
+2024-09-01 17:06:28 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 17:21:27 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 13, Batch  1009] Train loss: 0.415 
+2024-09-01 17:22:04 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 13 step 1009] GZSL test accuracy is Unseen: 63.9 Seen: 61.0 H:62.4
+           Best_H [Unseen: 63.9% Seen: 61.0% H: 62.4% | Epoch-13 step-0.0]
+2024-09-01 17:22:04 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 17:37:02 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 14, Batch  1009] Train loss: 0.414 
+2024-09-01 17:37:40 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 14 step 1009] GZSL test accuracy is Unseen: 63.7 Seen: 62.2 H:62.9
+           Best_H [Unseen: 63.7% Seen: 62.2% H: 62.9% | Epoch-14 step-0.0]
+2024-09-01 17:37:40 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 17:52:41 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 15, Batch  1009] Train loss: 0.414 
+2024-09-01 17:53:18 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+[Epoch 15 step 1009] GZSL test accuracy is Unseen: 64.3 Seen: 62.5 H:63.4
+           Best_H [Unseen: 64.3% Seen: 62.5% H: 63.4% | Epoch-15 step-0.0]
+2024-09-01 17:53:18 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed42_bs7 | 
+best_calibrated_stacking_number:0.7

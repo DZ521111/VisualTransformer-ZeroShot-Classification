@@ -1,0 +1,31 @@
+2024-09-01 17:53:24 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | {"dataset": "CUB", "root": "./", "image_root": "dataset/", "matdataset": true, "image_embedding": "res101", "class_embedding": "att", "preprocessing": true, "standardization": false, "ol": false, "validation": false, "batch_size": 7, "nepoch": 15, "classifier_lr": 3e-05, "beta1": 0.5, "cuda": true, "pretrain_classifier": "", "manualSeed": 2021, "resnet_path": "./pretrained_models/resnet101_c.pth.tar", "train_id": 107, "pretrained": null, "image_type": "test_unseen_loc", "pretrain_epoch": 5, "pretrain_lr": 0.0001, "all": false, "gzsl": true, "additional_loss": true, "xe": 1.0, "attri": 0.01, "regular": 5e-05, "l_xe": 1.0, "l_attri": 0.1, "l_regular": 0.04, "cpt": 1e-09, "calibrated_stacking": 0.7, "save_att": false, "IoU_scale": 4, "IoU_thr": 0.5, "resize_WH": false, "out_of_edge": false, "max_area_center": false, "KNOW_BIRD_BB": false, "train_mode": "random", "n_batch": 1000, "ways": 16, "shots": 2, "transform_complex": false, "awa_finetune": false, "use_group": true, "avg_pool": false, "only_evaluate": false, "resume": false, "patient": 7, "mask_way": "newmask", "temperature": 0.05, "loss_function": "two_loss", "model_name": "Multi_attention_Model", "mask_pro": 0.4, "mask_loss_xishu": 5.0, "construct_loss_weight": 0.001, "xlayer_num": 1, "sc_loss": 0.001, "attribute_miss": 0.5, "gradient_time": 10, "max_length": 250, "dataroot": "./data", "checkpointroot": "./checkpoint"}
+2024-09-01 17:53:28 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | Create Model...
+2024-09-01 17:53:38 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | Train and test...
+2024-09-01 18:08:21 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 1, Batch  1009] Train loss: 2.856 
+2024-09-01 18:09:00 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 1 step 1009] GZSL test accuracy is Unseen: 23.1 Seen: 0.0 H:0.0
+           Best_H [Unseen: 0.0% Seen: 0.0% H: 0.0% | Epoch-0.0 step-0.0]
+2024-09-01 18:09:00 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+best_calibrated_stacking_number:0.0
+2024-09-01 18:24:14 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 2, Batch  1009] Train loss: 0.627 
+2024-09-01 18:24:52 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 2 step 1009] GZSL test accuracy is Unseen: 44.9 Seen: 3.9 H:7.1
+           Best_H [Unseen: 44.9% Seen: 3.9% H: 7.1% | Epoch-2 step-0.0]
+2024-09-01 18:24:52 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 18:40:32 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 3, Batch  1009] Train loss: 0.506 
+2024-09-01 18:41:10 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 3 step 1009] GZSL test accuracy is Unseen: 60.1 Seen: 16.6 H:26.0
+           Best_H [Unseen: 60.1% Seen: 16.6% H: 26.0% | Epoch-3 step-0.0]
+2024-09-01 18:41:10 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+best_calibrated_stacking_number:0.7
+2024-09-01 18:56:29 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 4, Batch  1009] Train loss: 0.472 
+2024-09-01 18:57:07 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+[Epoch 4 step 1009] GZSL test accuracy is Unseen: 67.4 Seen: 26.4 H:37.9
+           Best_H [Unseen: 67.4% Seen: 26.4% H: 37.9% | Epoch-4 step-0.0]
+2024-09-01 18:57:07 | gzslour_temp0.05_sc_loss0.001_mask_pro0.4_attri0.01_contrast0.001lr3e-05_miss0.5_masklosss_xishu5.0_gradient10_seed2021_bs7 | 
+best_calibrated_stacking_number:0.7
